@@ -37,11 +37,11 @@ function init() {
   ctx.fillRect(0, 0, width, height);
 
   function drawText() {
-    const fontSize = Math.min(30, width / 10);
+    const fontSize = Math.min(20, width / 10);
     ctx.font = `${fontSize}px Arial`;
     ctx.fillStyle = "lightblue";
     ctx.textAlign = "center";
-    ctx.fillText("Ты самая прекрасная девушка!!!", width / 2, height / 1.9 + (mobile ? 100 : 200));
+    ctx.fillText("Ты самая прекрасная девушка!!!", width / 2, height / 1.8 + (mobile ? 100 : 200));
     ctx.fillText("Люблю тебя очень очень сильно!!!", width / 2, height / 1.7 + (mobile ? 100 : 200));
   }
 
