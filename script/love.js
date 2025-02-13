@@ -42,7 +42,7 @@ function init() {
     ctx.fillStyle = "lightblue";
     ctx.textAlign = "center";
     ctx.fillText("Ты самая прекрасная девушка!!!", width / 2, height / 1.8 + (mobile ? 100 : 200));
-    ctx.fillText("Люблю тебя очень очень сильно!!!", width / 2, height / 1.7 + (mobile ? 100 : 200));
+    ctx.fillText("Люблю тебя очень очень сильно🤍", width / 2, height / 1.7 + (mobile ? 100 : 200));
   }
 
   function heartPosition(rad) {
